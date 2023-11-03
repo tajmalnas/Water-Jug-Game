@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.jug {
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  margin-bottom: 20px;
+  background-color: skyblue;
+  margin-top: 10px;
+}
+
+.output {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+  margin-top: 30px;
+}
+.inputs {
+  display: flex;
+  flex-wrap: flex-wrap;
+}
+
+@media screen and (max-width: 560px) {
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+}
